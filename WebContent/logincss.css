@@ -1,0 +1,114 @@
+@CHARSET "ISO-8859-1";
+/*login page*/
+
+.gender{
+	font-size:24px;
+	color:rgba(255,255,221,1);
+}
+	
+.dob{
+	font-size:24px;
+	color:rgba(255,255,221,1);
+}
+.p1{
+	font-size:40px;
+	font-family:"Comic Sans MS", cursive;
+	text-align:right;
+}
+#h1{
+	width:550px;
+	alignment-adjust:right;
+	float:right;
+}
+.t1{
+	font-size:24px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.t2{
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+body{
+	/*background:url("C:\Users\HP\workspace\social\WebContent\energy-bliss-18378.png") 0px 0px no-repeat; */
+	background-color:#1E90FF;
+	text-align:left;
+	font-family:Nunito-Light;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	
+}
+input.email {
+    background: url(image/mail.png)no-repeat 10px 10px;
+}
+input.lock {
+    background:url(image/lock.png)no-repeat 7px 9px;
+}
+/*.register input[type="text"],.register input[type="password"] {
+	outline: none;
+    font-size:16px;
+	font-family:Nunito-Light;
+	padding: 15px 10px;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	width: 200%;
+    margin: 0 0 15px 0 ;
+	background:rgba(2, 2, 2, 0.60);
+}*/
+.register input[type="text"],.register input[type="password"] {
+	padding: 6px 10px;
+	background:rgba(253,253,253,1);
+	font-size:16px;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.register select[name="date"],.register select[name="month"],.register select[name="year"] {
+	padding: 6px 10px;
+	background:rgba(253,253,253,1);
+	font-size:16px;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/*.sign-up input[type="submit"] {
+    background:rgba(2, 2, 2, 0.60);
+    color: #fff;
+	border: 2px solid #fff;
+    font-size: 18px;
+	font-family:Nunito-Light;
+    padding: 15px 10px 15px 15px;
+    width: 85%;
+    cursor: pointer;    outline: none;
+
+    display: inline-block;
+    margin-top:24px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.sign-up input[type="submit"]:hover{
+	color: #fff;
+    background:#d8cc52;
+}*/
+
+.t2:hover{
+	color:#000;
+    background:rgba(138,138,255,1);
+}
+
+
